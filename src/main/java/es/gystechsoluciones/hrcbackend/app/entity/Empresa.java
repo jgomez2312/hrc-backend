@@ -32,4 +32,9 @@ public class Empresa implements Serializable {
     @Column(name = "create_at")
     @Temporal(TemporalType.DATE)
     private Date createAt;
+
+    @PrePersist
+    private void prePersist(){
+        createAt = new Date();
+    }
 }

@@ -30,6 +30,22 @@ public class EmpresaServiceImpl implements IEmpresaService {
         return empresaDao.findAllByTipoEmpresa(tipoEmpresa);
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public Empresa findById(Long id) {
+        return empresaDao.findById(id).orElse(null);
+    }
 
+    @Override
+    @Transactional
+    public Empresa save(Empresa empresa) {
+        return empresaDao.save(empresa);
+    }
+
+    @Override
+    @Transactional
+    public void delete(Long id) {
+        empresaDao.deleteById(id);
+    }
 
 }

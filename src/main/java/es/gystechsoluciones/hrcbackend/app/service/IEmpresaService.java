@@ -6,9 +6,10 @@ import java.util.List;
 
 public interface IEmpresaService {
 
-    public List<Empresa> findAll();
-    public List<Empresa> findAllByTipoEmpresas(String tipoEmpresa);
-
-    public Empresa save(Empresa empresa);
+    List<Empresa> findAll();
+    List<Empresa> findAllByTipoEmpresas(String tipoEmpresa);
+    Empresa findById(Long Id);
+    Empresa save(Empresa empresa);
+    void delete(Long id);
 
 }
