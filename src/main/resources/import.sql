@@ -1,0 +1,21 @@
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (1, '2001-01-01', 'B123456789', 'Gystech Soluciones, SL', 'CLIENTE', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (2, '2001-01-02', 'B123456789', 'Gystech Soluciones 1, SL', 'CLIENTE', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (3, '2001-01-03', 'B123456789', 'Gystech Soluciones 2, SL', 'CLIENTE', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (4, '2001-01-04', 'B123456789', 'Gystech Soluciones 3, SL', 'CLIENTE', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (5, '2001-01-05', 'B123456789', 'Gystech Soluciones 4, SL', 'CLIENTE', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (6, '2001-01-06', 'B123456789', 'Gystech Soluciones 5, SL', 'CLIENTE', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (7, '2001-01-07', 'B123456789', 'Gystech Soluciones 6, SL', 'PROVEEDOR', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (8, '2001-01-08', 'B123456789', 'Gystech Soluciones 7, SL', 'PROVEEDOR', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (9, '2001-01-09', 'B123456789', 'Gystech Soluciones 8, SL', 'PROVEEDOR', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (10, '2001-01-12', 'B123456789', 'Gystech Soluciones 9, SL', 'PROVEEDOR', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (11, '2001-01-11', 'B123456789', 'Gystech Soluciones 10, SL', 'PROVEEDOR', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (12, '2001-01-12', 'B123456789', 'Gystech Soluciones 11, SL', 'PROVEEDOR', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (13, '2001-01-13', 'B123456789', 'Gystech Soluciones 12, SL', 'PROVEEDOR', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (14, '2001-01-14', 'B123456789', 'Gystech Soluciones 13, SL', 'OPORTUNIDAD', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (15, '2001-01-15', 'B123456789', 'Gystech Soluciones 14, SL', 'OPORTUNIDAD', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (16, '2001-01-16', 'B123456789', 'Gystech Soluciones 15, SL', 'OPORTUNIDAD', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (17, '2001-01-17', 'B123456789', 'Gystech Soluciones 16, SL', 'OPORTUNIDAD', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (18, '2001-01-18', 'B123456789', 'Gystech Soluciones 17, SL', 'OPORTUNIDAD', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (19, '2001-01-19', 'B123456789', 'Gystech Soluciones 18, SL', 'OPORTUNIDAD', 'CIF');
+INSERT INTO empresas(id, create_at, identificador, nombre_fiscal, tipo_empresa, tipo_identificador) VALUES (20, '2001-01-20', 'B123456789', 'Gystech Soluciones 19, SL', 'OPORTUNIDAD', 'CIF');
+
