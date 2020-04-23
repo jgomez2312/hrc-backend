@@ -78,4 +78,16 @@ public class EmpresaRestController {
         return empresaService.save(empresa);
     }
 
+    @PutMapping("/empresa/{id}")
+    @ResponseStatus()
+    public Empresa actualizar(@RequestBody Empresa empresa, @PathVariable Long id){
+        Empresa empresaActual = empresaService.findById(id);
+
+        empresaActual.setNombreFiscal(empresa.getNombreFiscal());
+        empresaActual.setTipoIdentificador(empresa.getTipoIdentificador());
+        empresaActual.setIdentificador(empresa.getIdentificador());
+        empresaActual.setTipoEmpresa(empresa.getTipoEmpresa());
+
+        return empresaService.save(empresaActual);
+    }
 }
