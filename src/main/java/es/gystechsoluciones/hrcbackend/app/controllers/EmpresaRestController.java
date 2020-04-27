@@ -62,7 +62,7 @@ public class EmpresaRestController {
      * @param id
      * @return Devuelve la Empresa encontrada por id.
      */
-    @GetMapping("/empresa/{id}")
+    @GetMapping("/empresas/{id}")
     public Empresa mostrar(@PathVariable Long id){
         return empresaService.findById(id);
     }
@@ -72,14 +72,14 @@ public class EmpresaRestController {
      * @param empresa
      * @return Devuelve la empresa creada. Status 200 ok
      */
-    @PostMapping("/empresa")
+    @PostMapping("/empresas")
     @ResponseStatus(HttpStatus.CREATED)
     public Empresa crear(@RequestBody Empresa empresa){
         return empresaService.save(empresa);
     }
 
-    @PutMapping("/empresa/{id}")
-    @ResponseStatus()
+    @PutMapping("/empresas/{id}")
+    @ResponseStatus(HttpStatus.CREATED)
     public Empresa actualizar(@RequestBody Empresa empresa, @PathVariable Long id){
         Empresa empresaActual = empresaService.findById(id);
 
@@ -89,5 +89,11 @@ public class EmpresaRestController {
         empresaActual.setTipoEmpresa(empresa.getTipoEmpresa());
 
         return empresaService.save(empresaActual);
+    }
+
+    @DeleteMapping("/empresas/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void delete(@PathVariable Long id){
+        empresaService.delete(id);
     }
 }
